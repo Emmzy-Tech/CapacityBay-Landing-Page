@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,500;1,600;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #08be72;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+nav ul li a{
+    color: #a1a1a1;
+    font-weight: 200;
+    transition: .3s ease;
+}
+nav ul li a:hover{
+    color: #000;
+}
+.side-btn a{
+    background-color: #08be72;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: .3s ease;
+}
+.side-btn a:hover{
+    background-color: #fff;
+    color: #08be72;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.bg-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 65vh;
+}
+.bg{
+    width: 45vw;
+    height: 100%;
+}
+.page-contents{
+    width: 55vw;
+    height: 100%;
+    /* background-color: red; */
+    padding: 50px 80px;
+}
+.page-contents h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 60px;
+}
+.page-contents h1 span{
+    font-size: 3.3rem;
+    color: red;
+}
+.page-contents p{
+    font-size: 1rem;
+    color: #4b4a4a;
+}
+.page-contents .nbtn{
+    margin-top: 40px;
+}
+.page-contents .play-btn{
+    background-color: #08be72;
+    color: #fff;
+    padding: 10px 15px;
+    transition: .3s ease;
+}
+.page-contents .play-btn:hover{
+    background-color: #fff;
+    color: #08be72;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.page-contents .play-btn .fa{
+    margin-right: 10px;
+}
+.page-contents .nbtn .start{
+    padding: 10px;
+    border: 1px solid #d3d1d1;
+    margin-left: 20px;
+    border-radius: 3px;
+    color: #000;
+}
+.page-contents .nbtn .start:hover{
+    background-color: #000;
+    color: #fff;
+}
+.sponsors-logo{
+    width: 100%;
+    height: 20vh;
+    border-top: 1px solid #d3d1d1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sponsors-logo .con-logo{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #a8a8a8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
